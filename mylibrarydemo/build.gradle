@@ -43,11 +43,13 @@ afterEvaluate {
     publishing {
         publications {
             release(MavenPublication){
-                from components.release
+
 
                 groupId = 'github.com.HarshMZignuts'
                 artifactId = 'DemoSDKUpload-Android'
-                version = '1.1'
+                version = '1.2'
+                from components.release
+
             }
         }
     }
