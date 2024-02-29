@@ -46,9 +46,20 @@ afterEvaluate {
                 from components.release
 
                 groupId = 'github.com.HarshMZignuts'
-                artifactId = 'DemoSDKUpload.Android'
-                version = '1.0'
+                artifactId = 'DemoSDKUpload-Android'
+                version = '1.1'
             }
         }
     }
 }
+//publishing {
+//    publications {
+//        mavenJava(MavenPublication) {
+//            groupId = 'org.gradle.sample'
+//            artifactId = 'library'
+//            version = '1.1'
+//
+//            from components.java
+//        }
+//    }
+//}
