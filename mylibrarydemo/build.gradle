@@ -47,7 +47,7 @@ afterEvaluate {
 
                 groupId = 'github.com.HarshMZignuts'
                 artifactId = 'DemoSDKUpload-Android'
-                version = '1.7'
+                version = '1.8'
                 from components.release
 
             }
